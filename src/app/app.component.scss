@@ -1,0 +1,115 @@
+$color-ptrincipal:#0f98d3;
+
+* {
+    text-decoration-line: none;
+    margin:0px;
+    padding:0px;
+}
+.ruletalk {
+    // float: right;
+    position:fixed;
+    // align-content: ;
+    bottom: 15px;
+    right: 15px;
+ 
+    border-radius: 60px 45px 5px 5px;
+    background: linear-gradient(145deg, $color-ptrincipal, #d8a840);
+    box-shadow:  4px 0px 18px #fffba8,
+                -4px -4px 18px #d8a840;
+    z-index: 1;
+    
+                // d3c90f
+                // 0f98d3
+}
+.buttns {
+    float: right;
+    padding: 10px 9px 5px 10px;
+}
+.panel-options {
+
+}
+.login-button {
+    position: absolute;
+    right:100px;
+
+    // border-radius: 180dg;
+}
+app-chat {
+    display:none;
+
+
+}
+.shower {
+    display:flex;
+    // background: gray;
+    justify-content: center;
+    transition: 1s ease;
+
+}
+.tam {
+    display:none;
+}
+.display {
+    width: 100px;
+    background: black;
+    color: white;
+    padding: 10px;
+
+}
+
+
+button:active {
+    animation:blink 2s ease 0;
+}
+
+@keyframes blink {
+    from {
+        // display:none;
+        background-color: transparent;
+        
+    }
+    to {
+        // display:block;
+        background-color: white;
+
+
+        
+        
+    }
+}
+
+.login-button button {
+    border-radius: 180px;
+    text-decoration-style: none;
+    padding: 15px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    transition: 1.5s ease;
+
+}
+.login-button button:hover {
+    background: linear-gradient(1deg, $color-ptrincipal, #17e5ff);
+    color: white;
+
+}
+
+.home button {
+    border-radius: 180px;
+    text-decoration-style: none;
+    padding: 5px;
+    background: linear-gradient(-80deg, $color-ptrincipal, white);
+    border: none;
+    transform:scaleY(0.3em);
+    transition: 1.5s ease;
+}
+.home button:hover {
+    background: linear-gradient(1deg, $color-ptrincipal, #17e5ff);
+    color: white;
+
+}
+mat-toolbar {
+    background: #12b3f8;
+    box-shadow: inset -22px 22px 47px #0d81b3,
+                inset 22px -22px 47px #17e5ff;
+}

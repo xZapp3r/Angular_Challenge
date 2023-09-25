@@ -1,0 +1,17 @@
+<div class="container">
+  <form (ngSubmit)="onSubmit(f)" class="example-form" #f="ngForm" novalidate > 
+    <label appearance="fill">Login
+      <input matInput ngModel name="login" placeholder="Ex. nome" value=""  #login="ngModel" require>
+    </label>
+    <label>Email
+      <input matInput ngModel name="email" placeholder="Addr. seunome@gmail.com" value=""  #email="ngModel" require>
+    </label>
+    <label>PDassword
+      <input matInput ngModel name="password" type="text"  #pass="ngModel" placeholder="Senha: ABC123#$%oi">
+    </label>
+
+    <button>
+      Registrar
+    </button>
+  </form>
+</div>

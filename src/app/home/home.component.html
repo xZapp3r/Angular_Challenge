@@ -1,0 +1,95 @@
+
+<body>
+  <div center>
+    <br>
+  </div>
+  <div class="col">
+
+  </div>
+
+  <div class="title" (mouseenter)="onMouseEnter()" (onclick)="onMouseEnter">
+    <h1 id="word" class="myClass">
+      {{ this.announce() }}
+    </h1>
+    
+  </div>
+  <div class="container">
+    <section class="cards">
+      <mat-card routerLink="/login">
+        <mat-card-title>
+          Financeiro
+        </mat-card-title>
+        <mat-card-content>
+          Suas Finanças organizadas
+          <mat-card-actions>
+            <img mat-card-image width="175px" src="../../assets/índice.jpg">
+          </mat-card-actions>
+        </mat-card-content>
+        <button mat-fab>
+          <mat-icon sm>stars</mat-icon>
+        </button>
+      </mat-card>
+    
+      <mat-card routerLink="/login">
+        <mat-card-title >
+          Carros
+        </mat-card-title>
+          Alugue seus carros
+        <mat-card-content>
+          <mat-card-actions>
+            <img mat-card-image width="175px" src="../../assets/1(58).jpg">
+          </mat-card-actions>
+        </mat-card-content>
+        <button mat-fab>
+          <mat-icon sm>landscape</mat-icon>
+        </button>
+      </mat-card>
+
+      <mat-card routerLink="/login">
+        <mat-card-title>
+          Tickets
+        </mat-card-title>
+        <mat-card-content>
+          Consulte o nosso suporte
+          <mat-card-actions>
+            <img mat-card-image width="175px" src="../../assets/technical-support-operator-working-colleagues-office-145677306.jpg">
+          </mat-card-actions>
+        </mat-card-content>
+        <button mat-fab>
+          <mat-icon sm>mms</mat-icon>
+        </button>
+      </mat-card>
+    
+    
+
+    </section>
+    <div class="scontent">
+        <mat-icon>ball</mat-icon>
+        <h3>Aqui</h3>
+
+      
+    </div>
+  </div>
+</body >
+
+
+
+
+
+
+  <!-- <button (click)="testLog()">Log Test</button> -->
+
+
+<!-- <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1
+         <mat-grid> -->
+            
+        <!-- </mat-grid> 
+    </mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list> -->
+  
+
+

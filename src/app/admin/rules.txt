@@ -1,0 +1,76 @@
+Tasks.:
+
+    Nest operations
+        Create, Read, Update, Delete [
+            {
+                user = {
+                    "id" = int;
+                    "user" = string;
+                    "email" = "string";
+                }
+                finance = {
+                    "dividas" = int, + "jurosMensal" = percentage + dataVencimento = data
+                    "lucro" = decimal, + "faturamento" = decimal
+                    "investimentos" = decimal, + "juros" = decimal, + "dividendosRecebidos" = decimal + "acaoOpcao" = string
+
+                    calc(financeiro) {
+                        diasPassados = dataAtual - dataVencimento;
+                        dataAtraso = diasPassados / 30;
+                        juros = dividas * value / 100 ?
+                        dividendosEstimados = valor recebido * actionValue / Yield;
+                        dividendosRecebidos = inputUser
+                        retrieve to all 3 components of financial;
+                    }
+                }
+            
+
+
+                }
+
+                tickets = [
+                    {
+                        id = int;
+                        user = string;
+                        status = ["aberto", "atualizado", "concluida"];-> option
+                        contato = [$email, $numero]
+                        sobre = ["cars", "financial"]
+
+                    }
+                ]
+
+                carros = [
+                    {
+                        id = int;
+                        modelo = string;
+                        marca = string;
+                        status = ["perfeito", "defeitos raros", "defeitos recorrentes", "abatido", "consertado"] -> option
+                        observacao = textarea;
+                        alugado = boolean;
+                        rastreador = boolean;
+                        periodo = if alugado int;
+                        valor = p/ dia;
+                        seguro = boolean;
+
+                    }
+                ]
+            }
+        ]
+
+
+Admin:
+basic CRUD &&
+    See tickets
+    Edit situations
+    Verify access control       {dashboard modified == admin}
+    Analytics data about
+    Banish a user
+
+user:
+basic CRUD &&
+    edit theme
+    start a chat with clients and Support       {default dashboard == dashboard}
+    put and bid a car
+    see your tickets
+    accomplish with financial management
+
+

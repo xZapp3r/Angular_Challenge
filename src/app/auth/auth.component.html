@@ -1,0 +1,24 @@
+<div class="bar">Entrar
+
+</div>
+<div class="container">
+  <!-- <app-auth [item]="currentItem"></app-auth> -->
+
+  <form (ngSubmit)="onSubmit(f)" class="example-form" #f="ngForm" novalidate > 
+
+      <input ngModel matInput name="login" placeholder="Seu Login" value=""  #login="ngModel" require>
+
+
+      <input ngModel matInput name="password" type="password"  #pass="ngModel" placeholder="Sua senha forte">
+    <button>
+      Entrar
+    </button>
+
+
+
+  </form>
+
+
+</div>
+<div class="bar"></div>
+ 

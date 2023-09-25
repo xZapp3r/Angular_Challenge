@@ -1,0 +1,231 @@
+@use '@material/animation';
+
+// .heap {
+    
+// }
+mat-toolbar {
+    background: black;
+    border-radius: 35px 35px 0 0;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+    align-items: center;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 40px #80939a,
+                inset -20px -20px 100px #000000;
+    border-bottom: 3px solid gold;
+
+}
+mat-toolbar button {
+    border-radius: 35px 35px 0 0;
+    border: 1px solid white;
+    border-bottom: none;
+    
+    overflow: hidden;
+    transition: all 0.8s;
+
+    background: linear-gradient(to right, rgb(246, 232, 105) 1%, transparent 40%,transparent 60% , rgba(94, 226, 255, 0.98) 100%);
+    color: var(#fff094);
+    box-shadow: inset 0 0 10px #e6ca7c, 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    background: transparent;
+    padding: 10px;
+}
+
+mat-toolbar button:hover {
+    // background: gold;
+    opacity: 0.5;
+    background: linear-gradient(145deg, #e6ca7c, #fff094);
+    box-shadow:  4px 4px 10px #d4ba73,
+             -4px -4px 10px #ffffa1;
+
+    .chant:hover {
+        // background: linear-gradient(145deg, #e6ca7c, #fff094);
+        // box-shadow:  4px 4px 41px #d4ba73,
+        //          -4px -4px 41px #ffffa1;
+    
+    }
+    
+}
+
+
+ mat-toolbar button:hover:before {
+    transform: translateX(5em);
+   }
+
+mat-toolbar div {
+
+    margin-top: 15px;
+
+}
+
+.container { 
+    padding: 50px 0 100px 0;
+    background: #40474a;
+    box-shadow: inset 13px 13px 26px #2d3235,
+            inset -13px -13px 26px #535c5f;
+    z-index:3;
+
+}
+.details {
+    position:relative;
+    top: 8px;
+}
+.togl {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.togl button {
+    width: 150px;
+    background-color: transparent;
+    transition: 1s ease;
+}
+.togl button:hover {
+    box-shadow: inset 5 5 10px #e6ca7c, 20 20 9px 3px rgba(27, 253, 156, 0.1);
+
+    transform: scale(1.3);
+
+}
+.chant {
+    height: 20px;
+    background-color: gold;
+
+}
+.tob {
+    position: relative;
+
+
+    // display: flex;
+    // justify-content: right;
+    // align-items: center;
+    // background-color: black;
+}
+.owa {
+    margin-left: 5%;
+}
+// .pushDash {
+// } mat-expansion-panel-content ng-trigger ng-trigger-bodyExpansion .ng-tns-c105-0
+// [role=region]   {
+//     background: yellow;
+
+// }
+// div #cdk-accordion-child-0 {
+//     background: yellow;
+// }
+#mat-expansion-panel-header-0 {
+    background:gray;
+    border-radius: none;
+    margin-bottom: 12px;
+    background: #e0e0e0;
+    box-shadow: inset 40px 40px 60px #647278,
+                inset -20px -20px 60px #ffffff;
+}
+mat-expansion-panel  {
+    position: absolute;
+}
+mat-expansion-panel {
+    display: flex-box ;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px 0 180px 180px;
+    background: linear-gradient(45deg, #10a1df, #13c0ff);
+    box-shadow:  20px -20px 60px #0f98d3,
+                 -20px 20px 60px #15ceff;
+    // border: 1px solid red;
+}
+button {
+    background: transparent;
+    border: none;
+    color: white;
+
+}
+#app {
+    color: white;
+    margin: 0 15% 100px 12%;
+    background: gray ;
+    // opacity:  0.75;
+    border-radius:0 0 50px 50px;
+    background: linear-gradient(45deg, #73848b, #818d92);
+    box-shadow:  5px -5px 24px #6d7d83,
+                 -5px 5px 24px #93a9b1;
+
+}
+
+.bar {
+    display:flex;
+    font-size: 1.7em;
+    justify-content: center;
+    height: 25px;
+    background: #17e5ff;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+// button {
+//     display: flex;
+//     justify-content: center;
+//     align-items: flex-center;
+//     
+// }
+h1, mat-icon  {
+    color:white;
+
+}
+
+
+// .heap {
+//     animation: fade-in 175ms ;
+//     width: 200px;
+//     border-radius: 180px;
+//     background:gray;
+// }
+
+// .heap:hover {
+//     background: black;
+//     width: 100px;
+//     transition: animation.exit-permanent(low, 0.75, 175ms);
+//     opacity: 0;
+//     will-change: box-shadow;
+
+//     // &--animating {
+//         transition: animation.enter( low, delay=150ms);
+
+//     // }
+// }
+
+
+// @keyframes fade-in {
+//     from {
+//         width: 52px;
+
+//         transform: translateY(800px);
+//         opacity: 0;
+//       }
+     
+//     to {
+//         width: 200px;
+
+//         transform: translateY(10);
+//         opacity: 1;
+
+//       }
+// }
+// @keyframes low {
+//     from {
+//         box-shadow: 200px,200px,200px,red;
+//     }
+//     to {
+//         box-shadow: 200px,200px,200px,red;
+//     }   
+// }
+    
+
+// name=
+// opacity=
+// duration=
+// delay=

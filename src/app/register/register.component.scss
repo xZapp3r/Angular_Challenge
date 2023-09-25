@@ -1,0 +1,70 @@
+.bar {
+    display:flex;
+    font-size: 1.7em;
+    justify-content: center;
+    height: 25px;
+    background: #17e5ff;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    background: #40474a;
+    box-shadow: inset 13px 13px 26px #2d3235,
+            inset -13px -13px 26px #535c5f;
+
+}
+label {
+    margin: 0 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background: black;
+}
+form {
+    width: 300px;
+    display: flex;
+    border-radius: 6px 6px 70px 70px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background: #12b3f8;
+    box-shadow: inset 13px 13px 26px #0d7fb0,
+                inset -13px -13px 26px #17e7ff;
+}
+input {
+    border:none;
+    color: white;
+    padding: 15px;
+    margin-left: 22px;
+    border-radius: 38px;
+    background: #40474a;
+    box-shadow: inset 3px 3px 16px #0d7fb0,
+                inset -3px -3px 16px #0d7fb0;
+}
+.any {
+    background: rgb(81, 70, 70, 0.75)
+}
+button {
+    border:none;
+    background: white;
+    font-size: 1.3em;
+    border-radius: 0 0 25px 25px;
+    transition: 1s ease;
+
+}
+button:hover {
+    box-shadow: inset 3px 3px 16px #0d7fb0,
+    inset -3px -3px 16px #0d7fb0;
+    color:white;
+}
+button:active {
+    background: #17e5ff;
+
+}

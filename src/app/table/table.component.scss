@@ -1,0 +1,61 @@
+thead {
+    position: relative;
+    align-items: center;
+    background: black;
+    font-size: 1.7em;
+    border:none ;
+}
+thead td {
+    margin: 20 500px 0 0 ;
+    padding: 20px;
+}
+tbody {
+    font-size: 1.4em;
+    transition: 1s ease;
+}
+tbody td {
+    position:relative;
+    padding: 20px;
+    border:1px solid #17e5ff;
+}
+tbody:hover {
+    background: black;
+}
+.scroll-container {
+    display: flex;
+    overflow: auto visible ;
+    align-items: top;
+    &:active {
+        pointer-events: none;
+    }  
+    table {
+      transform: rotateX(180deg);
+      white-space: nowrap;
+      background: transparent;
+      width: 100%;
+      margin: 0 40rem 0 2rem;
+      
+      &:hover {
+        cursor: pointer;
+        border-color: #17e5ff;
+      }
+    }
+}
+.Flipped {
+    transform: rotateX(180deg);
+
+}
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 5px;
+}

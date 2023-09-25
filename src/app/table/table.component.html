@@ -1,0 +1,151 @@
+<br>
+<!-- <table>
+    <thead>
+        <td>id</td>
+        <td>user</td>
+        <td>password</td>
+        <td>email</td>
+    </thead>
+    <tbody *ngFor="let item of myData$ | async">
+        <td>{{ item.id   }}</td>
+        <td>{{ item.user }}</td>
+        <td>{{ item.password }}</td>
+        <td>{{ item.email }}</td>
+
+    </tbody>
+    
+</table>
+<br> -->
+
+<div class="scroll-container container Flipped" id="div">
+
+    <table>
+        <thead>
+            <td>id</td>
+            <td>user</td>
+            <td>movimentos</td>
+            <td>descricao</td>
+            <td>aluguel</td>
+            <td>juros</td>
+            <td>data</td>
+        </thead>
+        <tbody *ngFor="let item of myFinans$ | async">
+            <td>{{ item.id }}</td>
+        
+            <td>{{ item.user }}</td>
+        
+            <td>{{ item.movimentos }}</td>
+            <td>{{ item.descricao }}</td>
+
+            <td>{{ item.aluguel }}</td>
+            <td>{{ item.juros }}</td>
+            <td>{{ item.data }}</td>   
+
+        </tbody>
+        
+    </table>
+
+
+    <table>
+        <thead>
+            <td>id</td>
+            <td>modelo</td>
+            <td>marca</td>
+            <td>alugado</td>
+            <td>aluguel</td>
+            <td>rastreador</td>
+            <td>valor</td>
+            <td>seguro</td>
+        </thead>
+        <tbody *ngFor="let item of myCars$ | async">
+            <td>{{ item.id}} </td>
+            <td>{{ item.modelo}}</td>
+            <td>{{ item.marca }}</td>
+            <td>{{ item.alugado }}</td>
+            <td> {{ item.aluguel }}</td>
+            <td>{{ item.rastreador }}</td>
+            <td> {{ item.valor }} </td>
+            <td> {{ item.seguro }} </td>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <td>id</td>
+            <td>modelo</td>
+            <td>marca</td>
+            <td>alugado</td>
+            <td>aluguel</td>
+            <td>rastreador</td>
+            <td>valor</td>
+            <td>seguro</td>
+        </thead>
+        <tbody *ngFor="let item of myTodo$ | async">
+            <td>{{ item.id }}</td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.content }}</td>
+            <td>{{ item.f_done }}</td>
+
+        </tbody>
+    </table>
+</div>
+
+
+<!-- <td>
+    <th>{{item.id}}</th>
+</td> -->
+<!-- 
+<ul>
+    <li *ngFor="let item of myData$ | async">
+        {{ item.id  }}        
+        {{ item.user }}
+        {{ item.password }}
+        {{ item.email }}
+    </li>
+</ul>
+
+{{ myFinans | json }}
+<ul>
+    <li *ngFor="let item of myFinans$ | async">
+        {{ item.id }}
+        {{ item.user}}
+        {{ item.movimentos }}
+        {{ item.descricao }}
+        {{ item.aluguel }}
+        {{ item.juros }}
+        
+        {{ item.data }}
+        
+    </li>
+</ul>
+
+
+{{ myCars | json }}
+<ul>
+    <li *ngFor="let item of myCars$ | async">
+        {{ item.id }}
+        {{ item.modelo}}
+        {{ item.marca }}
+        {{ item.alugado }}
+        {{ item.aluguel }}
+        {{ item.rastreador }}
+        {{ item.valor }}
+        {{ item.seguro }}
+        
+        
+    </li>
+</ul>
+
+{{ myTodo | json }}
+<ul>
+    <li *ngFor="let item of myTodo$ | async">
+        {{ item.id }}
+        {{ item.title}}
+        {{ item.content }}
+        {{ item.f_done }}
+
+        
+        
+    </li>
+</ul> -->
+<!-- <div id="overflow"></div> -->

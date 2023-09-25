@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    right: -150;
+    padding: 20px;
+}
+
+textarea { 
+    
+    background: rgb(255, 253, 253);
+    border: none;
+    border-radius: 60px 45px 5px 5px;
+    height:150px;
+    // margin: 0px -15px 0 0 ;
+
+}
+input {
+    width:100px;
+    background: white;
+    opacity: 0.50;
+    color: black;
+    border: none;
+}
+input:focus {
+    border: none;
+}
+div {
+    width: 200px;
+    display: flex;
+    // align-items:flex-start;
+    // justify-content: end;
+}
+button {
+    background:transparent;
+
+    // rotate: 180dg;
+    border: none;
+    // border-radius: 180px;
+}
+button:hover {
+    background:white;
+
+    opacity: 0.75;
+}
+button:active {
+    background: white;
+    border: 1px solid greenyellow;
+}
